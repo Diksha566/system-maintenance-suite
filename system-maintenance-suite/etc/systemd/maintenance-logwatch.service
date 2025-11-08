@@ -1,0 +1,7 @@
+[Unit]
+Description=Maintenance suite log scan
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/maintenance-suite/env
+ExecStart=/usr/local/bin/log_watch.sh

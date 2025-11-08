@@ -1,0 +1,5 @@
+2025-11-08 22:41:25 [INFO] Starting backup to /var/backups/backup_20251108_224125.tar.gz
+2025-11-08 22:41:25 [ERROR] Backup failed (Exit code: 2)
+2025-11-08 22:42:24 [ERROR] This script must be run as root
+2025-11-08 22:43:12 [INFO] Starting system update and cleanup
+2025-11-08 22:44:07 [INFO] Package lists updated

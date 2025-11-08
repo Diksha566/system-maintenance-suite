@@ -1,0 +1,7 @@
+[Unit]
+Description=Maintenance suite backup
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/maintenance-suite/env
+ExecStart=/usr/local/bin/backup.sh
